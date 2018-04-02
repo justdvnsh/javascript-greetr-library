@@ -3,26 +3,17 @@
 A javascript library which supports jquery and can greet in four major languages formally and informally. Its simple api can be used to add any language with just some basic steps.
 
 ## Getting Started
-```
-*clone the repository
-*example:- 
-```var g = G$("John","","es");
-g.greet(true).setLang('en').greet()
 
-$("#login").click(function() {
-	var loginGrtr = G$('','','')
-	$("#logindiv").hide();
-	loginGrtr.setLang($('#lang').val()).HTMLgreeting("#greeting", true).log();
-});```
-```
+* clone the repository
+ 
+
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-```
-*Javascript
-```
+* Javascript
+
 
 ## Built With
 
@@ -43,4 +34,16 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Example
 
+*example:- 
+```javascript
+var g = G$("John","","es");
+g.greet(true).setLang('en').greet()
+
+$("#login").click(function() {
+	var loginGrtr = G$('','','')
+	$("#logindiv").hide();
+	loginGrtr.setLang($('#lang').val()).HTMLgreeting("#greeting", true).log();
+});
+```
